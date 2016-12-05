@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     libgnutls-dev
 
 RUN git clone https://github.com/cgrlab/vcftools.git
-RUN cd vcftoos; git checkout tags/v0.1.14
+RUN cd vcftools; git checkout tags/v0.1.14
 
 RUN ./autogen.sh
 RUN ./configure
