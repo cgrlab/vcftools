@@ -38,3 +38,7 @@ Makefile
 .libs
 vcftools
 *.tar.*
+.Rproj.user
+
+# RStudio
+*Rproj
