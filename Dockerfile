@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y \
     unzip \
     git \
     libcurl4-gnutls-dev \
-    libgnutls-dev
+    libgnutls-dev \
+    autoconf
 
 RUN git clone https://github.com/cgrlab/vcftools.git
 RUN cd vcftools; git checkout tags/v0.1.14
